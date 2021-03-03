@@ -3,10 +3,11 @@ from flask_cors import CORS
 import chat_API
 import pywhatkit
 import pickle
-from pyngrok import ngrok
+from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__)
 CORS(app)
+run_with_ngrok(app)
 database={'subho':'hero','soham':'chomu','yash':'pagla'}
 
 # @app.route('/predict',methods=['POST'])
@@ -48,8 +49,5 @@ def logout():
 
 
 if __name__ == '__main__':
-    # url = ngrok.connect(5000).public_url
-    # print(' * Tunnel URL:', url)
-    # ngrok.kill()
-    app.run(host='127.0.0.1', port=5000, debug=True)
+    app.run()
     
