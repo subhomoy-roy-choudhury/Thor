@@ -8,8 +8,9 @@
   <body>
     <h1>Chatterbot</h1>
     <div>
+      <li><a href="{{ url_for('logout') }}">Log Out</a></li>
       <div id="chatbox">
-        <p class="botText"><span>Hi! I'm Chatterbot.</span></p>
+        <p class="botText"><span>Hi! I'm Chatterbot.Welcome {{name}}</span></p>
       </div>
       <div id="userInput">
         <input id="textInput" type="text" name="user_input" placeholder="Message">
