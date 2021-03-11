@@ -7,8 +7,8 @@ from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__)
 CORS(app)
-# run_with_ngrok(app)               #this is needed to use ngrok for port forwarding
-database={'subho':'hero','soham':'chomu','yash':'pagla'}
+run_with_ngrok(app)               #this is needed to use ngrok for port forwarding
+database={'subho':'hero','soham':'chomu','yash':'pagla','tublu':'7415'}
 
 # @app.route('/predict',methods=['POST'])
 # def index():
@@ -37,12 +37,20 @@ def login():
 def get_bot_response():
     userText = request.args.get('user_input')
     userText = userText.lower()
-    if "search" in userText:
+    if "search youtube" in userText:
+        userText = userText.replace('search youtube', '')  
+        pywhatkit.playonyt(userText)
+        return "searched youtube"+str(userText)
+    elif "search" in userText:
         userText = userText.replace('search', '')  
         pywhatkit.search(userText) 
         return "searched"+str(userText)
+    elif "whatsapp" in userText:
+        return "I am trying" + "I cannot open whatsapp"
+    elif "what is your name" in userText:
+        return "My name is Chatterbot"
     return str(chat_API.brain(userText))
-
+    
 @app.route('/logout')
 def logout():
     return redirect(url_for('home'))
