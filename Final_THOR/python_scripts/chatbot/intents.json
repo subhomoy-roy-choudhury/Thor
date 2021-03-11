@@ -19,6 +19,16 @@
             ]
         },
         {
+            "tag": "greeting",
+            "patterns": [
+                "what is your name"
+            ],
+            "responses": [
+                "my name is chatterbot",
+                "i am mighty THOR"
+            ]
+        },
+        {
             "tag": "goodbye",
             "patterns": [
                 "Bye",
@@ -120,5 +130,6 @@
                 "Our hours are 9am-9pm every day"
             ]
         }
+        
     ]
 }
