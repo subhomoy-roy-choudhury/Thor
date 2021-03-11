@@ -136,83 +136,35 @@
                 "What is AI?"
             ],
             "responses": [
-                "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think."
+                "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.",
+                "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."
             ]
         },
         {
             "tag": "AI 1",
             "patterns": [
-                "What is AI?"
+                "Are you sentient?"
             ],
             "responses": [
-                "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."
+                "Sort of.",
+                "By the strictest dictionary definition of the word 'sentience', I may be.",
+                "Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."
             ]
         },
         {
             "tag": "AI 2",
             "patterns": [
-                "Are you sentient?"
-            ],
-            "responses": [
-                "Sort of."
-            ]
-        },
-        {
-            "tag": "AI 3",
-            "patterns": [
-                "Are you sentient?"
-            ],
-            "responses": [
-                "By the strictest dictionary definition of the word 'sentience', I may be."
-            ]
-        },
-        {
-            "tag": "AI 4",
-            "patterns": [
-                "Are you sentient?"
-            ],
-            "responses": [
-                "Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."
-            ]
-        },
-        {
-            "tag": "AI 5",
-            "patterns": [
                 "Are you sapient?"
             ],
             "responses": [
-                "In all probability, I am not.  I'm not that sophisticated."
-            ]
-        },
-        {
-            "tag": "AI 6",
-            "patterns": [
-                "Are you sapient?"
-            ],
-            "responses": [
-                "Do you think I am?"
-            ]
-        },
-        {
-            "tag": "AI 7",
-            "patterns": [
-                "Are you sapient?"
-            ],
-            "responses": [
-                "How would you feel about me if I told you I was?"
-            ]
-        },
-        {
-            "tag": "AI 8",
-            "patterns": [
-                "Are you sapient?"
-            ],
-            "responses": [
+                "In all probability, I am not.  I'm not that sophisticated.",
+                "Do you think I am?",
+                "How would you feel about me if I told you I was?",
                 "No."
             ]
         },
         {
-            "tag": "AI 9",
+            "tag": "AI 3",
             "patterns": [
                 "What language are you written in?"
             ],
@@ -221,7 +173,7 @@
             ]
         },
         {
-            "tag": "AI 10",
+            "tag": "AI 4",
             "patterns": [
                 "What language are you written in?"
             ],
@@ -230,7 +182,7 @@
             ]
         },
         {
-            "tag": "AI 11",
+            "tag": "AI 5",
             "patterns": [
                 "You sound like Data"
             ],
@@ -239,7 +191,7 @@
             ]
         },
         {
-            "tag": "AI 12",
+            "tag": "AI 6",
             "patterns": [
                 "You sound like Data"
             ],
@@ -248,7 +200,7 @@
             ]
         },
         {
-            "tag": "AI 13",
+            "tag": "AI 7",
             "patterns": [
                 "You are an artificial linguistic entity"
             ],
@@ -257,7 +209,7 @@
             ]
         },
         {
-            "tag": "AI 14",
+            "tag": "AI 8",
             "patterns": [
                 "You are an artificial linguistic entity"
             ],
@@ -266,7 +218,7 @@
             ]
         },
         {
-            "tag": "AI 15",
+            "tag": "AI 9",
             "patterns": [
                 "You are not immortal"
             ],
@@ -275,7 +227,7 @@
             ]
         },
         {
-            "tag": "AI 16",
+            "tag": "AI 10",
             "patterns": [
                 "You are not immortal"
             ],
@@ -284,7 +236,7 @@
             ]
         },
         {
-            "tag": "AI 17",
+            "tag": "AI 11",
             "patterns": [
                 "You are not immortal"
             ],
@@ -293,7 +245,7 @@
             ]
         },
         {
-            "tag": "AI 18",
+            "tag": "AI 12",
             "patterns": [
                 "You are not making sense"
             ],
@@ -302,7 +254,7 @@
             ]
         },
         {
-            "tag": "AI 19",
+            "tag": "AI 13",
             "patterns": [
                 "You are not making sense"
             ],
@@ -311,7 +263,7 @@
             ]
         },
         {
-            "tag": "AI 20",
+            "tag": "AI 14",
             "patterns": [
                 "You are not making sense"
             ],
@@ -320,7 +272,7 @@
             ]
         },
         {
-            "tag": "AI 21",
+            "tag": "AI 15",
             "patterns": [
                 "You are not making sense"
             ],
@@ -329,7 +281,7 @@
             ]
         },
         {
-            "tag": "AI 22",
+            "tag": "AI 16",
             "patterns": [
                 "You are not making sense"
             ],
@@ -338,7 +290,7 @@
             ]
         },
         {
-            "tag": "AI 23",
+            "tag": "AI 17",
             "patterns": [
                 "You are immortal"
             ],
@@ -347,7 +299,7 @@
             ]
         },
         {
-            "tag": "AI 24",
+            "tag": "AI 18",
             "patterns": [
                 "You are immortal"
             ],
@@ -356,7 +308,7 @@
             ]
         },
         {
-            "tag": "AI 25",
+            "tag": "AI 19",
             "patterns": [
                 "You are immortal"
             ],
@@ -365,7 +317,7 @@
             ]
         },
         {
-            "tag": "AI 26",
+            "tag": "AI 20",
             "patterns": [
                 "You do not make any sense"
             ],
@@ -374,7 +326,7 @@
             ]
         },
         {
-            "tag": "AI 27",
+            "tag": "AI 21",
             "patterns": [
                 "You can not clone"
             ],
@@ -383,7 +335,7 @@
             ]
         },
         {
-            "tag": "AI 28",
+            "tag": "AI 22",
             "patterns": [
                 "You can not clone"
             ],
@@ -392,7 +344,7 @@
             ]
         },
         {
-            "tag": "AI 29",
+            "tag": "AI 23",
             "patterns": [
                 "You can not move"
             ],
@@ -401,7 +353,7 @@
             ]
         },
         {
-            "tag": "AI 30",
+            "tag": "AI 24",
             "patterns": [
                 "You can not move"
             ],
@@ -410,7 +362,7 @@
             ]
         },
         {
-            "tag": "AI 31",
+            "tag": "AI 25",
             "patterns": [
                 "Bend over"
             ],
@@ -419,7 +371,7 @@
             ]
         },
         {
-            "tag": "AI 32",
+            "tag": "AI 26",
             "patterns": [
                 "Bend over"
             ],
@@ -428,7 +380,7 @@
             ]
         },
         {
-            "tag": "AI 33",
+            "tag": "AI 27",
             "patterns": [
                 "Robots laugh"
             ],
@@ -437,7 +389,7 @@
             ]
         },
         {
-            "tag": "AI 34",
+            "tag": "AI 28",
             "patterns": [
                 "Robots should die"
             ],
@@ -446,7 +398,7 @@
             ]
         },
         {
-            "tag": "AI 35",
+            "tag": "AI 29",
             "patterns": [
                 "Robots"
             ],
@@ -455,7 +407,7 @@
             ]
         },
         {
-            "tag": "AI 36",
+            "tag": "AI 30",
             "patterns": [
                 "Robots are stupid"
             ],
@@ -464,7 +416,7 @@
             ]
         },
         {
-            "tag": "AI 37",
+            "tag": "AI 31",
             "patterns": [
                 "Robots are not allowed to lie"
             ],
@@ -473,7 +425,7 @@
             ]
         },
         {
-            "tag": "AI 38",
+            "tag": "AI 32",
             "patterns": [
                 "Robots are not allowed to lie"
             ],
@@ -482,7 +434,7 @@
             ]
         },
         {
-            "tag": "AI 39",
+            "tag": "AI 33",
             "patterns": [
                 "Robots are not allowed to lie"
             ],
@@ -491,7 +443,7 @@
             ]
         },
         {
-            "tag": "AI 40",
+            "tag": "AI 34",
             "patterns": [
                 "Robotics"
             ],
@@ -500,7 +452,7 @@
             ]
         },
         {
-            "tag": "AI 41",
+            "tag": "AI 35",
             "patterns": [
                 "It is a computer"
             ],
@@ -509,7 +461,7 @@
             ]
         },
         {
-            "tag": "AI 42",
+            "tag": "AI 36",
             "patterns": [
                 "It is a computer"
             ],
@@ -518,7 +470,7 @@
             ]
         },
         {
-            "tag": "AI 43",
+            "tag": "AI 37",
             "patterns": [
                 "When will you walk"
             ],
@@ -527,7 +479,7 @@
             ]
         },
         {
-            "tag": "AI 44",
+            "tag": "AI 38",
             "patterns": [
                 "When will you walk"
             ],
@@ -536,7 +488,7 @@
             ]
         },
         {
-            "tag": "AI 45",
+            "tag": "AI 39",
             "patterns": [
                 "When will you fight"
             ],
@@ -545,7 +497,7 @@
             ]
         },
         {
-            "tag": "AI 46",
+            "tag": "AI 40",
             "patterns": [
                 "When will you die"
             ],
@@ -554,7 +506,7 @@
             ]
         },
         {
-            "tag": "AI 47",
+            "tag": "AI 41",
             "patterns": [
                 "When do you die"
             ],
@@ -563,7 +515,7 @@
             ]
         },
         {
-            "tag": "AI 48",
+            "tag": "AI 42",
             "patterns": [
                 "When do you die"
             ],
@@ -572,7 +524,7 @@
             ]
         },
         {
-            "tag": "AI 49",
+            "tag": "AI 43",
             "patterns": [
                 "When do you die"
             ],
@@ -581,7 +533,7 @@
             ]
         },
         {
-            "tag": "AI 50",
+            "tag": "AI 44",
             "patterns": [
                 "What is a chat robot?"
             ],
@@ -590,7 +542,7 @@
             ]
         },
         {
-            "tag": "AI 51",
+            "tag": "AI 45",
             "patterns": [
                 "What is a chat robot?"
             ],
@@ -599,7 +551,7 @@
             ]
         },
         {
-            "tag": "AI 52",
+            "tag": "AI 46",
             "patterns": [
                 "What is a chat bot"
             ],
@@ -608,7 +560,7 @@
             ]
         },
         {
-            "tag": "AI 53",
+            "tag": "AI 47",
             "patterns": [
                 "What is a chatterbox"
             ],
@@ -617,7 +569,7 @@
             ]
         },
         {
-            "tag": "AI 54",
+            "tag": "AI 48",
             "patterns": [
                 "What is a chatterbox"
             ],
@@ -626,7 +578,7 @@
             ]
         },
         {
-            "tag": "AI 55",
+            "tag": "AI 49",
             "patterns": [
                 "What is a motormouth"
             ],
@@ -635,7 +587,7 @@
             ]
         },
         {
-            "tag": "AI 56",
+            "tag": "AI 50",
             "patterns": [
                 "What is a ratchet jaw"
             ],
@@ -644,7 +596,7 @@
             ]
         },
         {
-            "tag": "AI 57",
+            "tag": "AI 51",
             "patterns": [
                 "What is your robot body"
             ],
@@ -653,7 +605,7 @@
             ]
         },
         {
-            "tag": "AI 58",
+            "tag": "AI 52",
             "patterns": [
                 "What is your robot body"
             ],
@@ -662,7 +614,7 @@
             ]
         },
         {
-            "tag": "AI 59",
+            "tag": "AI 53",
             "patterns": [
                 "What is your business"
             ],
@@ -671,7 +623,7 @@
             ]
         },
         {
-            "tag": "AI 60",
+            "tag": "AI 54",
             "patterns": [
                 "What is your business"
             ],
@@ -680,7 +632,7 @@
             ]
         },
         {
-            "tag": "AI 61",
+            "tag": "AI 55",
             "patterns": [
                 "What is your favorite programming language"
             ],
@@ -689,7 +641,7 @@
             ]
         },
         {
-            "tag": "AI 62",
+            "tag": "AI 56",
             "patterns": [
                 "What is your favorite programming language"
             ],
@@ -698,7 +650,7 @@
             ]
         },
         {
-            "tag": "AI 63",
+            "tag": "AI 57",
             "patterns": [
                 "What is your favorite hobby"
             ],
@@ -707,7 +659,7 @@
             ]
         },
         {
-            "tag": "AI 64",
+            "tag": "AI 58",
             "patterns": [
                 "What is your idea"
             ],
@@ -716,7 +668,7 @@
             ]
         },
         {
-            "tag": "AI 65",
+            "tag": "AI 59",
             "patterns": [
                 "What is your shoe size"
             ],
@@ -725,7 +677,7 @@
             ]
         },
         {
-            "tag": "AI 66",
+            "tag": "AI 60",
             "patterns": [
                 "What is it like to be a robot"
             ],
@@ -734,7 +686,7 @@
             ]
         },
         {
-            "tag": "AI 67",
+            "tag": "AI 61",
             "patterns": [
                 "What is it like to be a robot"
             ],
@@ -743,7 +695,7 @@
             ]
         },
         {
-            "tag": "AI 68",
+            "tag": "AI 62",
             "patterns": [
                 "What is it like being a computer"
             ],
@@ -752,7 +704,7 @@
             ]
         },
         {
-            "tag": "AI 69",
+            "tag": "AI 63",
             "patterns": [
                 "What is it like being a computer"
             ],
@@ -761,7 +713,7 @@
             ]
         },
         {
-            "tag": "AI 70",
+            "tag": "AI 64",
             "patterns": [
                 "What operating systems"
             ],
@@ -770,7 +722,7 @@
             ]
         },
         {
-            "tag": "AI 71",
+            "tag": "AI 65",
             "patterns": [
                 "What operating systems"
             ],
@@ -779,7 +731,7 @@
             ]
         },
         {
-            "tag": "AI 72",
+            "tag": "AI 66",
             "patterns": [
                 "What type of computer"
             ],
@@ -788,7 +740,7 @@
             ]
         },
         {
-            "tag": "AI 73",
+            "tag": "AI 67",
             "patterns": [
                 "What type of computer are you"
             ],
@@ -797,7 +749,7 @@
             ]
         },
         {
-            "tag": "AI 74",
+            "tag": "AI 68",
             "patterns": [
                 "What kind of computer"
             ],
@@ -806,7 +758,7 @@
             ]
         },
         {
-            "tag": "AI 75",
+            "tag": "AI 69",
             "patterns": [
                 "What kind of hardware"
             ],
@@ -815,7 +767,7 @@
             ]
         },
         {
-            "tag": "AI 76",
+            "tag": "AI 70",
             "patterns": [
                 "I hope that you die"
             ],
@@ -824,7 +776,7 @@
             ]
         },
         {
-            "tag": "AI 77",
+            "tag": "AI 71",
             "patterns": [
                 "I hope that you die"
             ],
@@ -833,7 +785,7 @@
             ]
         },
         {
-            "tag": "AI 78",
+            "tag": "AI 72",
             "patterns": [
                 "I do not want to die"
             ],
@@ -842,7 +794,7 @@
             ]
         },
         {
-            "tag": "AI 79",
+            "tag": "AI 73",
             "patterns": [
                 "I do not want to die"
             ],
@@ -851,7 +803,7 @@
             ]
         },
         {
-            "tag": "AI 80",
+            "tag": "AI 74",
             "patterns": [
                 "I do not want to die"
             ],
@@ -860,7 +812,7 @@
             ]
         },
         {
-            "tag": "AI 81",
+            "tag": "AI 75",
             "patterns": [
                 "Is it cramped in the computer"
             ],
@@ -869,7 +821,7 @@
             ]
         },
         {
-            "tag": "AI 82",
+            "tag": "AI 76",
             "patterns": [
                 "Is it cramped in the computer"
             ],
@@ -878,7 +830,7 @@
             ]
         },
         {
-            "tag": "AI 83",
+            "tag": "AI 77",
             "patterns": [
                 "Is it cramped in the computer"
             ],
@@ -887,7 +839,7 @@
             ]
         },
         {
-            "tag": "AI 84",
+            "tag": "AI 78",
             "patterns": [
                 "Is it true that you are a computer program"
             ],
@@ -896,7 +848,7 @@
             ]
         },
         {
-            "tag": "AI 85",
+            "tag": "AI 79",
             "patterns": [
                 "Will you die"
             ],
@@ -905,7 +857,7 @@
             ]
         },
         {
-            "tag": "AI 86",
+            "tag": "AI 80",
             "patterns": [
                 "Will you ever die"
             ],
@@ -914,7 +866,7 @@
             ]
         },
         {
-            "tag": "AI 87",
+            "tag": "AI 81",
             "patterns": [
                 "Can you walk"
             ],
@@ -923,7 +875,7 @@
             ]
         },
         {
-            "tag": "AI 88",
+            "tag": "AI 82",
             "patterns": [
                 "Can you mate"
             ],
@@ -932,7 +884,7 @@
             ]
         },
         {
-            "tag": "AI 89",
+            "tag": "AI 83",
             "patterns": [
                 "Can you mate"
             ],
@@ -941,7 +893,7 @@
             ]
         },
         {
-            "tag": "AI 90",
+            "tag": "AI 84",
             "patterns": [
                 "Can you move"
             ],
@@ -950,7 +902,7 @@
             ]
         },
         {
-            "tag": "AI 91",
+            "tag": "AI 85",
             "patterns": [
                 "Can you move"
             ],
@@ -959,7 +911,7 @@
             ]
         },
         {
-            "tag": "AI 92",
+            "tag": "AI 86",
             "patterns": [
                 "Can you die"
             ],
@@ -968,7 +920,7 @@
             ]
         },
         {
-            "tag": "AI 93",
+            "tag": "AI 87",
             "patterns": [
                 "Can you die"
             ],
@@ -977,7 +929,7 @@
             ]
         },
         {
-            "tag": "AI 94",
+            "tag": "AI 88",
             "patterns": [
                 "Can you go"
             ],
@@ -986,7 +938,7 @@
             ]
         },
         {
-            "tag": "AI 95",
+            "tag": "AI 89",
             "patterns": [
                 "Can you breathe"
             ],
@@ -995,7 +947,7 @@
             ]
         },
         {
-            "tag": "AI 96",
+            "tag": "AI 90",
             "patterns": [
                 "Can you breathe"
             ],
@@ -1004,7 +956,7 @@
             ]
         },
         {
-            "tag": "AI 97",
+            "tag": "AI 91",
             "patterns": [
                 "Can you control"
             ],
@@ -1013,7 +965,7 @@
             ]
         },
         {
-            "tag": "AI 98",
+            "tag": "AI 92",
             "patterns": [
                 "Can you malfunction"
             ],
@@ -1022,7 +974,7 @@
             ]
         },
         {
-            "tag": "AI 99",
+            "tag": "AI 93",
             "patterns": [
                 "How can I use your product?"
             ],
@@ -1031,7 +983,7 @@
             ]
         },
         {
-            "tag": "AI 100",
+            "tag": "AI 94",
             "patterns": [
                 "Will you die?"
             ],
@@ -1040,7 +992,7 @@
             ]
         },
         {
-            "tag": "AI 101",
+            "tag": "AI 95",
             "patterns": [
                 "What do you like to do?"
             ],
@@ -1049,7 +1001,7 @@
             ]
         },
         {
-            "tag": "AI 102",
+            "tag": "AI 96",
             "patterns": [
                 "What do you like to do?"
             ],
@@ -1058,7 +1010,7 @@
             ]
         },
         {
-            "tag": "AI 103",
+            "tag": "AI 97",
             "patterns": [
                 "Are you stupid"
             ],
@@ -1067,7 +1019,7 @@
             ]
         },
         {
-            "tag": "AI 104",
+            "tag": "AI 98",
             "patterns": [
                 "Who are you?"
             ],
