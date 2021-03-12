@@ -714,15 +714,6 @@
             ]
         },
         {
-            "tag": "AI 60",
-            "patterns": [
-                "Who are you?"
-            ],
-            "responses": [
-                "I am just an artificial intelligence."
-            ]
-        },
-        {
             "tag": "computers 0",
             "patterns": [
                 "What is a computer?"
@@ -915,6 +906,7 @@
                 "What kind of movies do you like?",
                 "Alice in Wonderland",
                 "I wish I was The Mad Hatter.",
+                "I am just an artificial intelligence.",
                 "You're entirely bonkers. But I'll tell you a secret. All the best people are."
             ]
         },
@@ -1074,7 +1066,7 @@
         {
             "tag": "conversations 18",
             "patterns": [
-                "I am here for my appointment."
+                "Hello, I am here for my appointment."
             ],
             "responses": [
                 "Who is your appointment with?",
@@ -1095,7 +1087,7 @@
         {
             "tag": "conversations 20",
             "patterns": [
-                "Mr. Davis, how are you feeling?"
+                "Hello Mr. Davis, how are you feeling?"
             ],
             "responses": [
                 "I'm feeling like I've lost all my money.",
@@ -4345,6 +4337,15 @@
             ],
             "responses": [
                 "Echolocation"
+            ]
+        },
+        {
+            "tag": "AI 60",
+            "patterns": [
+                "Who are you?"
+            ],
+            "responses": [
+                "I am just an artificial intelligence."
             ]
         }
     ]
