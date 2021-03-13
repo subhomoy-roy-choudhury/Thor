@@ -69,7 +69,7 @@ def run():
             speak(str(date)+' '+str(month)+' '+ str(year))
         elif 'who are you' in command or 'what can you do' in command:
             system_data = platform.uname()
-            speak('I am THOR version 1 point O' +str(a)+ 'persoanl assistant.')
+            speak('I am THOR version 1 point O' +str(NAME)+ 'persoanl assistant.')
             speak('My Operating System is'+str(system_data.system))
             speak('My Machine is'+str(system_data.machine))
             speak('My Processor is'+str(system_data.processor))
@@ -96,13 +96,13 @@ if __name__ == '__main__':
     WAKE = ["hey lex","wake up"]
     EXIT =["go offline"]
     while True:
-        if str(face())=="unlocked":
-            print("Enter")
-            command = take_command()
-            for phrase in WAKE:
-                if phrase in command:
-                    run()
-            for phrase in EXIT:
-                if phrase in command:
-                    sys.exit()
-        
+        command = take_command()
+        for phrase in WAKE:
+            if phrase in command and str(face())=="unlocked":
+                talk("Access Granted")
+                run()
+            
+        for phrase in EXIT:
+            if phrase in command:
+                sys.exit()
+    
