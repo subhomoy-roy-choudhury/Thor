@@ -29,7 +29,7 @@ def take_command():
             for keys,value in t.items():
                 if keys in command:
                     command = command.replace(keys,value)
-            print('this is the'+str(command))
+            print('this is the '+str(command))
             #return command
     except Exception as e:
         # print(e)    

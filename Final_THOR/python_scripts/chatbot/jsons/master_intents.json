@@ -96,7 +96,6 @@
         {
             "tag": "funny",
             "patterns": [
-                "Tell me a joke!",
                 "Tell me something funny!",
                 "Do you know a joke?"
             ],
