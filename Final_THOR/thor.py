@@ -1,6 +1,7 @@
 from speech import *
 from heart_disease_predict import *
 from chatbot import brain 
+from face import face
 import subprocess
 import sys
 import datetime
@@ -51,7 +52,7 @@ def wishMe(name):
 
 
 def run():
-    # wishMe(NAME)
+    wishMe(NAME)
     while True:
         command = take_command()
         print(command)
@@ -87,18 +88,21 @@ def run():
             break
         elif 'heart' in command:
             heart_disease_predict()
-        talk(str(brain(command)))
+        else:
+            talk(str(brain(command)))
 
 if __name__ == '__main__':
     NAME = 'Subhomoy'
     WAKE = ["hey lex","wake up"]
     EXIT =["go offline"]
     while True:
-        command = take_command()
-        for phrase in WAKE:
-            if phrase in command:
-                run()
-        for phrase in EXIT:
-            if phrase in command:
-                sys.exit()
+        if str(face())=="unlocked":
+            print("Enter")
+            command = take_command()
+            for phrase in WAKE:
+                if phrase in command:
+                    run()
+            for phrase in EXIT:
+                if phrase in command:
+                    sys.exit()
         
