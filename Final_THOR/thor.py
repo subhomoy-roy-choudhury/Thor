@@ -11,6 +11,10 @@ import os
 import pyjokes
 import psutil
 import platform
+import random
+from plyer import notification
+
+
 
 def jokes():
     speak(pyjokes.get_joke())
@@ -96,9 +100,17 @@ if __name__ == '__main__':
     WAKE = ["hey lex","wake up"]
     EXIT =["go offline"]
     while True:
+        number = random.randint(100000,999999)
+        notification.notify(
+        title = "Hacker",
+        message = f"You OTP is {number}",
+        timeout = 30
+        )
+        print(number)
+        num = int(input("Enter the OTP : "))
         command = take_command()
         for phrase in WAKE:
-            if phrase in command and str(face())=="unlocked":
+            if phrase in command and str(face())=="unlocked" and num == number:
                 talk("Access Granted")
                 run()
             
